@@ -1,0 +1,34 @@
+{
+  "name": "insight-advisor-app",
+  "version": "0.0.1",
+  "keywords": [
+    "qlik",
+    "nebula"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html --open --no-hmr",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "dependencies": {
+    "@nebula.js/sn-bar-chart": "^1.x",
+    "@nebula.js/sn-kpi": "^1.0.0",
+    "@nebula.js/sn-line-chart": "^1.21.11",
+    "@nebula.js/sn-scatter-plot": "^3.42.0",
+    "@nebula.js/stardust": "^3.0.4",
+    "dotenv": "^16.0.3",
+    "enigma.js": "^2.6.3",
+    "node-fetch": "2",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "buffer": "^5.7.1",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  }
+}

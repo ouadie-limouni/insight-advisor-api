@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Insight Advisor APIs</title>
+  <meta charset="UTF-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body style="background-color: rgb(251, 251, 249);">
+  <form action="#" id="formId">
+    <div style="margin-left: 5%;">
+      <div class="form-group">
+        <input type="text" class="form-control" id="inputText" placeholder="Type Question Here"
+          style="width: 53% !important; margin-top: 35px;">
+      </div>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-success" id="btnSubmit"
+        style="margin-left: 48%; width: 7%; font-size: 17px; background-color: #00873d;">Submit</button>
+    </div>
+  </form>
+  <div id="app">
+    <div id="selection" class="curr-selections" style="width: 50% !important; margin-left: 5.2% !important;"></div>
+    <div id="chart" style="width: 50% !important; margin-left: 4.5%"></div>
+  </div>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
